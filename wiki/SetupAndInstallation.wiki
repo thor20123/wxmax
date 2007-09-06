@@ -9,11 +9,11 @@ There are a few things you will need before you can start building your own Blit
 * The wxWidgets headers
 * A set of wxWidgets library files
 
-Both of these can be downloaded from the Downloads section.
+Both of these can be downloaded from the [http://code.google.com/p/wxmax/downloads/list Downloads] section.
 
 == Module Source ==
 
-Until we have a stable enough code-base, you will need to use the Subversion repository to retrieve the BlitzMax source for the module. See the Source section for details of how to get it.
+Until we have a stable enough code-base, you will need to use the Subversion repository to retrieve the BlitzMax source for the module. See the [http://code.google.com/p/wxmax/source Source] section for details of how to get it.
 
 You can either have the source located directly in the `BlitzMax/mod` folder, or you will have to copy the folder (`wx.mod`) to that location once you've retrieved it from the repository.
 
