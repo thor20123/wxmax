@@ -6,8 +6,8 @@
 
 There are a few things you will need before you can start building your own BlitzMax GUI apps with wxWidgets.
 
-* The wxWidgets headers
-* A set of wxWidgets library files
+  * The wxWidgets headers
+  * A set of wxWidgets library files
 
 Both of these can be downloaded from the [http://code.google.com/p/wxmax/downloads/list Downloads] section.
 
