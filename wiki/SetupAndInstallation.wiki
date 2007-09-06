@@ -1,0 +1,31 @@
+#summary What to put where, and where to find it.
+
+= Installing the module =
+
+== Downloads ==
+
+There are a few things you will need before you can start building your own BlitzMax GUI apps with wxWidgets.
+
+* The wxWidgets headers
+* A set of wxWidgets library files
+
+Both of these can be downloaded from the Downloads section.
+
+== Module Source ==
+
+Until we have a stable enough code-base, you will need to use the Subversion repository to retrieve the BlitzMax source for the module. See the Source section for details of how to get it.
+
+You can either have the source located directly in the `BlitzMax/mod` folder, or you will have to copy the folder (`wx.mod`) to that location once you've retrieved it from the repository.
+
+= Setup =
+
+The headers should be unzipped in the `wx.mod/include/` folder. It will create a new folder called `wx`.
+
+The library files should be unzipped into the `wx.mod/lib/` folder. It will create a folder based on the libraries you install (e.g. `linux`, for the Linux libraries).
+
+With the module at `BlitzMax/mod/wx.mod` and the headers and libraries in their correct locations, it should be a simple matter of building the modules in your IDE.
+It may take a while the first time, since there is a lot to compile.
+
+== Samples ==
+
+Once everything is built, why not try out one of the sample apps that comes with the module, in `wx.mod/samples/`.
