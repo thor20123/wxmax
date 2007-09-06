@@ -1,5 +1,7 @@
 #summary Things that still need to be done
 
+Crossed-off widgets imply code-completion, but not necessarily complete documentation.
+
   * wxArtProvider
   * wxaui - wxAuiManager , wxAuiNotebook , wxAuiPaneInfo (missing docs), wxAuiDockArt, wxAuiManagerEvent
   * wxBitmap
