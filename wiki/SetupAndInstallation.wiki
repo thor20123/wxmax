@@ -26,6 +26,10 @@ The library files should be unzipped into the `wx.mod/lib/` folder. It will crea
 With the module at `BlitzMax/mod/wx.mod` and the headers and libraries in their correct locations, it should be a simple matter of building the modules in your IDE.
 It may take a while the first time, since there is a lot to compile.
 
+== Building ==
+
+If you don't already have it, you will need to use a modified version of BMK (the BlitzMax make utility), as it requires use of custom compiler flags - something the official BMK doesn't support. You can get it [http://brucey.net/programming/blitz/index.php#tweakedbmk from here]. (see also WhatToDoWithBMK).
+
 == Samples ==
 
 Once everything is built, why not try out one of the sample apps that comes with the module, in `wx.mod/samples/`.
