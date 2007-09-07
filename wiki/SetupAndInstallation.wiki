@@ -28,7 +28,7 @@ It may take a while the first time, since there is a lot to compile.
 
 == Building ==
 
-If you don't already have it, you will need to use a modified version of BMK (the BlitzMax make utility), as it requires use of custom compiler flags - something the official BMK doesn't support. You can get it [http://brucey.net/programming/blitz/index.php#tweakedbmk from here]. (see also WhatToDoWithBMK ).
+If you don't already have it, you will need to use a modified version of BMK (the BlitzMax make utility), as it requires use of custom compiler flags - something the official BMK doesn't support. You can get it [http://brucey.net/programming/blitz/index.php#tweakedbmk from here]. (see also WhatToDoWithBmk).
 
 == Samples ==
 
