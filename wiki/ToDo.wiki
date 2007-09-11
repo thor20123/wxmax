@@ -39,6 +39,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxMDIClientWindow
   * wxMDIParentFrame
   * wxMediaCtrl
+  * ~~wxMenu~~
   * wxMenuBar
   * wxMiniFrame
   * wxMouseEvent
@@ -56,10 +57,10 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxSpinCtrl
   * ~~wxSplashScreen~~
   * ~~wxSplitterWindow~~
-  * wxStaticBox
-  * wxStaticLine
-  * wxStaticText
-  * wxStatusBar
+  * ~~wxStaticBox~~
+  * ~~wxStaticLine~~
+  * ~~wxStaticText~~
+  * ~~wxStatusBar~~
   * wxSystemSettings
   * wxTextCtrl
   * wxTextEntryDialog
