@@ -11,7 +11,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxButton~~
   * ~~wxCheckBox~~
   * wxCheckListBox
-  * wxChoice
+  * ~~wxChoice~~
   * wxChoiceBook
   * wxColourDialog
   * wxComboBox
@@ -43,12 +43,12 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxMediaCtrl
   * wxMemoryDC
   * ~~wxMenu~~
-  * wxMenuBar
+  * ~~wxMenuBar~~
   * ~~wxMiniFrame~~
   * wxMouseEvent
   * ~~wxNotebook~~
   * wxNumberEntryDialog
-  * wxPanel
+  * ~~wxPanel~~
   * wxPasswordEntryDialog
   * ~~wxRadioBox~~
   * ~~wxRadioButton~~
@@ -69,7 +69,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxTextCtrl
   * wxTextEntryDialog
   * ~~wxTimer~~
-  * wxToggleButton
+  * ~~wxToggleButton~~
   * wxToolBar
   * wxToolBook
   * wxTopLevelWindow
