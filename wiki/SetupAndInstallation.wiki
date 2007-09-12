@@ -1,4 +1,5 @@
 #summary What to put where, and where to find it.
+#labels Featured,Phase-Deploy
 
 = Installing the module =
 
