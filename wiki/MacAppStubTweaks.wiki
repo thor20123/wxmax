@@ -1,0 +1,115 @@
+#summary How to get it running on the Mac
+
+= Overview =
+
+The GUI Mac build of a BlitzMax app runs as a Cocoa App, as well as defining its own App / Apple Menu. Both of these facts cause issues when using wxWidgets for the following reasons :
+  * wxWidgets is Carbon-based, and therefore won't work properly when launch from a Cocoa base.
+  * It defines *its* own App Menu, which results in the App Menu not working properly at all.
+
+= Workaround =
+
+To get around these issues, requires a hack to the `BRL.AppStub` module, and specifically `appstub.macos.m`.
+
+The original main() looks like this:
+{{{
+int main( int argc,char *argv[] ){
+
+	int i;
+	int guiApp=0;
+	CFURLRef url;
+	char *p;
+	
+	app_dir=malloc(1024);
+	app_file=malloc(1024);
+	
+	url=CFBundleCopyExecutableURL( CFBundleGetMainBundle() );
+	CFURLGetFileSystemRepresentation( url,true,(UInt8*)app_file,1024 );
+
+	strcpy( app_dir,app_file );
+	if( p=strstr( app_dir,".app/Contents/MacOS/" ) ){
+		guiApp=1;
+		*p=0;
+	}
+	p=strrchr( app_dir,'/' );
+	assert(p);
+	*p=0;
+	
+	_globalPool=[[NSAutoreleasePool alloc] init];
+	
+	[NSApplication sharedApplication];
+
+	if( guiApp ){
+
+		const char *p=strrchr( app_file,'/' );
+		
+		if( p ) ++p;
+		else p=app_file;
+
+		createAppMenu( [NSString stringWithCString:p] );
+	
+		[NSApp setDelegate:[[BlitzMaxAppDelegate alloc] init]];
+	
+		_appArgs=[[NSMutableArray arrayWithCapacity:10] retain];
+		[_appArgs addObject:[NSString stringWithCString:argv[0]] ];
+
+		[NSApp run];
+
+	}else{
+	
+		bbStartup( argc,argv,app_dir,app_file );
+
+		free( app_file );
+		free( app_dir );
+	
+		__bb_appstub_appstub();
+	}
+	
+	exit(0);
+}
+}}}
+
+To fix the problem, we can remove the references to NSApp, and kick off the app using the non-GUI code as per the "else" part of the if statement above :
+
+{{{
+int main( int argc,char *argv[] ){
+
+	int i;
+	int guiApp=0;
+	CFURLRef url;
+	char *p;
+	
+	app_dir=malloc(1024);
+	app_file=malloc(1024);
+	
+	url=CFBundleCopyExecutableURL( CFBundleGetMainBundle() );
+	CFURLGetFileSystemRepresentation( url,true,(UInt8*)app_file,1024 );
+
+	strcpy( app_dir,app_file );
+	if( p=strstr( app_dir,".app/Contents/MacOS/" ) ){
+		guiApp=1;
+		*p=0;
+	}
+	p=strrchr( app_dir,'/' );
+	assert(p);
+	*p=0;
+	
+	_globalPool=[[NSAutoreleasePool alloc] init];
+	
+	bbStartup( argc,argv,app_dir,app_file );
+
+	free( app_file );
+	free( app_dir );
+	
+	__bb_appstub_appstub();
+	
+	exit(0);
+}
+}}}
+
+Note : Before you change fundamental code such as this you should make a backup of the original, as you may need to revert back to it at some point.
+
+= Long term =
+
+Hopefully, BRL can come up with a way for everything to work together, so that hacks like this are no longer required.
+
+If anyone has any ideas, speak up!
