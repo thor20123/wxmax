@@ -6,15 +6,16 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxArtProvider
   * wxaui - wxAuiManager , wxAuiNotebook , wxAuiPaneInfo (missing docs), wxAuiDockArt, wxAuiManagerEvent
   * wxBitmap
-  * wxBitmapButton
-  * wxBitmapComboBox
+  * ~~wxBitmapButton~~
+  * ~~wxBitmapComboBox~~
+  * ~~wxBrush~~
   * ~~wxButton~~
   * ~~wxCheckBox~~
   * wxCheckListBox
   * ~~wxChoice~~
   * wxChoiceBook
   * wxColourDialog
-  * wxComboBox
+  * ~~wxComboBox~~
   * wxComboCtrl
   * wxConfig
   * wxControlWithItems
@@ -79,3 +80,4 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxVScrolledWindow~~
   * wxWizard
 etc...
+ 
