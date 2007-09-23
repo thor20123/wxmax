@@ -18,9 +18,9 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxComboBox~~
   * wxComboCtrl
   * wxConfig
-  * wxControlWithItems
+  * ~~wxControlWithItems~~
   * wxCursor
-  * wxDC
+  * ~~wxDC~~
   * wxDialog
   * wxDirDialog
   * wxFileDialog
@@ -35,14 +35,14 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxImage
   * wxImageList
   * wxListbook
-  * wxListCtrl
-  * wxListView
+  * ~~wxListCtrl~~
+  * ~~wxListView~~
   * wxLog, ~~logging functions~~
   * wxMDIChildFrame
   * wxMDIClientWindow
   * wxMDIParentFrame
   * wxMediaCtrl
-  * wxMemoryDC
+  * ~~wxMemoryDC~~
   * ~~wxMenu~~
   * ~~wxMenuBar~~
   * ~~wxMiniFrame~~
@@ -80,4 +80,5 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxVScrolledWindow~~
   * wxWizard
 etc...
+ 
  
