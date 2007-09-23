@@ -1,3 +1,4 @@
-#summary A cross platform programming language based on BASIC
+#summary An object-oriented cross platform programming language
 
 You can find out more about BlitzMax at http://blitzmax.com
+ 
