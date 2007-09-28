@@ -1,3 +1,10 @@
 #summary Quick tips
 
-No-one has asked any yet!
+===Adding Controls===
+*Q*: I have added a single control to a wxFrame at a certain position. When I resize the frame, the control within it is resized to fill the entire frame. What's up?
+
+*A*: If you add a single control to a frame, it automatically fits inside that frame. If you want to add a control at a fixed size/location, add a wxPanel first whose parent is the frame, and then add your control which has the panel as its parent :
+{{{
+Local panel:wxPanel = New wxPanel.Create(myFrame)
+Local button:wxButton = New wxButton.Create(panel, wxID_ANY, "My Button", 50, 50)
+}}}
