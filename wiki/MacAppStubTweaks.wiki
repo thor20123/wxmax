@@ -6,110 +6,49 @@ The GUI Mac build of a BlitzMax app runs as a Cocoa App, as well as defining its
   * wxWidgets is Carbon-based, and therefore won't work properly when launch from a Cocoa base.
   * It defines *its* own App Menu, which results in the App Menu not working properly at all.
 
-= Workaround =
+= The Workaround =
 
-To get around these issues, requires a hack to the `BRL.AppStub` module, and specifically `appstub.macos.m`.
+Checkout the modified BMK (see WhatToDoWithBmk) which allows you to specify a different appstub module at compile time. By default, it will use brl.appstub.
 
-The original main() looks like this:
+You'll also need a customized appstub ([http://brucey.net/programming/blitz/index.php#bahappstub bah.appstub]) which is designed for building wxMax apps.
+
+== Usage ==
+
+===From the command-line===
+You might compile your application on the command-line with something like :
 {{{
-int main( int argc,char *argv[] ){
-
-	int i;
-	int guiApp=0;
-	CFURLRef url;
-	char *p;
-	
-	app_dir=malloc(1024);
-	app_file=malloc(1024);
-	
-	url=CFBundleCopyExecutableURL( CFBundleGetMainBundle() );
-	CFURLGetFileSystemRepresentation( url,true,(UInt8*)app_file,1024 );
-
-	strcpy( app_dir,app_file );
-	if( p=strstr( app_dir,".app/Contents/MacOS/" ) ){
-		guiApp=1;
-		*p=0;
-	}
-	p=strrchr( app_dir,'/' );
-	assert(p);
-	*p=0;
-	
-	_globalPool=[[NSAutoreleasePool alloc] init];
-	
-	[NSApplication sharedApplication];
-
-	if( guiApp ){
-
-		const char *p=strrchr( app_file,'/' );
-		
-		if( p ) ++p;
-		else p=app_file;
-
-		createAppMenu( [NSString stringWithCString:p] );
-	
-		[NSApp setDelegate:[[BlitzMaxAppDelegate alloc] init]];
-	
-		_appArgs=[[NSMutableArray arrayWithCapacity:10] retain];
-		[_appArgs addObject:[NSString stringWithCString:argv[0]] ];
-
-		[NSApp run];
-
-	}else{
-	
-		bbStartup( argc,argv,app_dir,app_file );
-
-		free( app_file );
-		free( app_dir );
-	
-		__bb_appstub_appstub();
-	}
-	
-	exit(0);
-}
+bmk makeapp -t gui -r -b bah.appstub mywxapp.bmx
 }}}
 
-To fix the problem, we can remove the references to NSApp, and kick off the app using the non-GUI code as per the "else" part of the if statement above :
+===Via Applescript===
+You can either compile/run this from the script editor, or run the compiled script by double-clicking from the Finder :
 
 {{{
-int main( int argc,char *argv[] ){
+(*      Brucey''s new bmk will by default use brl.appstub, but can be coerced into using another as part of its command-line params via the "-b" switch.
+        e.g. bmk makeapp -t gui -d -b bah.appstub splash.bmx
+        where -b expects a valid module name, which will be compiled into the application.
+        
+        BaH.appstub is a hacked down version of BRL.appstub for Mac/Carbon builds (ie. wxMax friendly) to be placed in mod/bah/
+*)
 
-	int i;
-	int guiApp=0;
-	CFURLRef url;
-	char *p;
-	
-	app_dir=malloc(1024);
-	app_file=malloc(1024);
-	
-	url=CFBundleCopyExecutableURL( CFBundleGetMainBundle() );
-	CFURLGetFileSystemRepresentation( url,true,(UInt8*)app_file,1024 );
+set myApp to "Applications/Blitzmax/mod/wx.mod/samples/treetest" -- replace with your app path and filename
 
-	strcpy( app_dir,app_file );
-	if( p=strstr( app_dir,".app/Contents/MacOS/" ) ){
-		guiApp=1;
-		*p=0;
-	}
-	p=strrchr( app_dir,'/' );
-	assert(p);
-	*p=0;
-	
-	_globalPool=[[NSAutoreleasePool alloc] init];
-	
-	bbStartup( argc,argv,app_dir,app_file );
+set myBuildMode to "d" -- replace with "r" for release mode
 
-	free( app_file );
-	free( app_dir );
-	
-	__bb_appstub_appstub();
-	
-	exit(0);
-}
+set myBlitzMaxPath to "Applications/Blitzmax/"
+
+set myBuild to myBlitzMaxPath & "bin/bmk makeapp -t gui -" & myBuildMode & " -b bah.appstub " & myApp
+
+do shell script myBuild
+
+if myBuildMode = "d" then
+        set myExe to ".debug.app"
+else
+        set myExe to ".app"
+end if
+
+do shell script "open " & myApp & myExe
 }}}
 
-Note : Before you change fundamental code such as this you should make a backup of the original, as you may need to revert back to it at some point.
-
-= Long term =
-
-Hopefully, BRL can come up with a way for everything to work together, so that hacks like this are no longer required.
-
-If anyone has any ideas, speak up!
+===Customized IDE===
+We have a customized version of the IDE source available in the [http://code.google.com/p/wxmax/downloads/list Downloads] section, which includes the extra options for building using the custom appstub.
