@@ -14,6 +14,8 @@ You'll also need a customized appstub ([http://brucey.net/programming/blitz/inde
 
 == Usage ==
 
+There are several different methods available for compiling your applications using the custom appstub :
+
 ===From the command-line===
 You might compile your application on the command-line with something like :
 {{{
