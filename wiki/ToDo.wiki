@@ -14,6 +14,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxCheckListBox
   * ~~wxChoice~~
   * wxChoiceBook
+  * ~~wxChoiceDialog~~
   * wxColourDialog
   * ~~wxComboBox~~
   * wxComboCtrl
@@ -26,9 +27,9 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxFileDialog
   * wxFileHistory
   * wxFontDialog
-  * wxFrame
+  * ~~wxFrame~~
   * wxGLCanvas
-  * wxGrid
+  * wxGrid - see wxSheet
   * wxHtmlWindow
   * wxHyperlinkCtrl
   * wxIcon
@@ -46,7 +47,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxMenu~~
   * ~~wxMenuBar~~
   * ~~wxMiniFrame~~
-  * wxMouseEvent
+  * ~~wxMouseEvent~~
   * ~~wxNotebook~~
   * wxNumberEntryDialog
   * ~~wxPanel~~
@@ -54,11 +55,12 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxRadioBox~~
   * ~~wxRadioButton~~
   * wxRichTextCtrl
-  * wxSashWindow
-  * wxScrollBar
+  * ~~wxSashWindow~~
+  * ~~wxScrollBar~~
   * ~~wxScrolledWindow~~
-  * wxSearchCtrl
-  * wxSpinButton
+  * ~~wxSearchCtrl~~
+  * wxSheet
+  * ~~wxSpinButton~~
   * wxSpinCtrl
   * ~~wxSplashScreen~~
   * ~~wxSplitterWindow~~
@@ -75,10 +77,10 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxToolBook
   * wxTopLevelWindow
   * wxTreeBook
-  * wxTreeCtrl
+  * ~~wxTreeCtrl~~
   * wxUri
   * ~~wxVScrolledWindow~~
-  * wxWizard
+  * ~~wxWizard~~
 etc...
  
  
