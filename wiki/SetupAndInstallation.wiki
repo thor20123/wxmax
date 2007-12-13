@@ -29,9 +29,11 @@ It may take a while the first time, since there is a lot to compile.
 
 == Building ==
 
-If you don't already have it, you will need to use a modified version of BMK (the BlitzMax make utility), as it requires use of custom compiler flags - something the official BMK doesn't support. You can get it [http://brucey.net/programming/blitz/index.php#tweakedbmk from here]. (see also WhatToDoWithBmk).
-
 On MacOS, you will need to perform the MacAppStubTweaks to get wxWidgets working properly on that platform.
+
+Otherwise, it's simply a matter of building modules as always!!
+
+_Note_ : Since BlitzMax 1.28, wxMax can build straight out of the box - there are no BMK or other compiler tweaks to apply first. (previously, one had to build with a customized BMK)
 
 == Samples ==
 
