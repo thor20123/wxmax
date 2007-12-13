@@ -8,9 +8,7 @@ The GUI Mac build of a BlitzMax app runs as a Cocoa App, as well as defining its
 
 = The Workaround =
 
-Checkout the modified BMK (see WhatToDoWithBmk) which allows you to specify a different appstub module at compile time. By default, it will use brl.appstub.
-
-You'll also need a customized appstub ([http://brucey.net/programming/blitz/index.php#bahappstub bah.appstub]) which is designed for building wxMax apps.
+You will need a customized appstub module ([http://brucey.net/programming/blitz/index.php#bahappstub bah.appstub]) which is designed for building wxMax apps.
 
 == Usage ==
 
