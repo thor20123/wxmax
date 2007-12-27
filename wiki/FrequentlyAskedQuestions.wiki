@@ -8,3 +8,19 @@
 Local panel:wxPanel = New wxPanel.Create(myFrame)
 Local button:wxButton = New wxButton.Create(panel, wxID_ANY, "My Button", 50, 50)
 }}}
+
+===Compilation Issues===
+*Q*: When I try to compile an application using wxMax the build fails with a long list of strange errors, like this -
+{{{
+C:/Programme/BlitzMax/mod/wx.mod/wx.mod/../lib/win32/libwxmsw28u_core.a(corelib_frame.o)(.rdata$_ZTV7wxFrame+0x0):frame.cpp: multiple definition of `vtable for wxFrame'
+C:/Programme/BlitzMax/mod/wx.mod/wxframe.mod/wxframe.release.win32.x86.a(glue.cpp.release.win32.x86.o)(.data$_ZTV7wxFrame+0x0):glue.cpp: first defined here
+}}}
+What's it mean?
+
+*A*: Chances are you have a different version of the compiler/linker than was used to build the wxWidget static libraries.
+
+On Win32, MinGW is used for compiling and linking the code. Sometimes, if you upgrade your MinGW from a previous version you can have these problems. A clean install of MinGW is always recommended. (Usually, you can simply rename the old folder and install the new one). MinGW 5.1.3 is the version currently used to build the static libraries.
+
+On Linux, the libraries have been built with GCC 4.1.x. Usually GCC versions of the same major-version number are compatible, whereas if you were to use GCC 3.x, you are likely to run into the errors above.
+
+On Mac, the static libraries are usually compiled using the latest XCode.
