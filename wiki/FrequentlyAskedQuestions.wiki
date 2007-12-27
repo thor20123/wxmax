@@ -19,8 +19,8 @@ What's it mean?
 
 *A*: Chances are you have a different version of the compiler/linker than was used to build the wxWidget static libraries.
 
-On Win32, MinGW is used for compiling and linking the code. Sometimes, if you upgrade your MinGW from a previous version you can have these problems. A clean install of MinGW is always recommended. (Usually, you can simply rename the old folder and install the new one). MinGW 5.1.3 is the version currently used to build the static libraries.
+On Win32, MinGW is used for compiling and linking the code. Sometimes, if you upgrade your MinGW from a previous version you can have these problems. A clean install of MinGW is always recommended. (Usually, you can simply rename the current folder and install the new version in its place). MinGW 5.1.3 is the version currently used to build the static libraries.
 
 On Linux, the libraries have been built with GCC 4.1.x. Usually GCC versions of the same major-version number are compatible, whereas if you were to use GCC 3.x, you are likely to run into the errors above.
 
-On Mac, the static libraries are usually compiled using the latest XCode.
+On Mac, the static libraries are generally compiled using the latest XCode, unless otherwise stated.
