@@ -49,10 +49,13 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxIcon
   * wxImage
   * wxImageList
+  * wxInternetFSHandler
   * wxListbook
   * ~~wxListCtrl~~
   * ~~wxListView~~
+  * wxLocale
   * wxLog, ~~logging functions~~
+  * wxMacPageMarginsDialog
   * wxMDIChildFrame
   * wxMDIClientWindow
   * wxMDIParentFrame
@@ -64,8 +67,20 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxMouseEvent~~
   * ~~wxNotebook~~
   * wxNumberEntryDialog
+  * wxPageSetupDialog
+  * wxPageSetupDialogData
+  * wxPalette
   * ~~wxPanel~~
   * wxPasswordEntryDialog
+  * wxPen
+  * wxPickerBase
+  * wxPlatformInfo
+  * wxPreviewFrame
+  * wxPrintData
+  * wxPrintDialog
+  * wxPrinter
+  * wxPrintout
+  * wxPrintPreview
   * ~~wxRadioBox~~
   * ~~wxRadioButton~~
   * wxRichTextCtrl
