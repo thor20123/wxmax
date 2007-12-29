@@ -5,29 +5,43 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxApp
   * wxArtProvider
   * wxaui - wxAuiManager , wxAuiNotebook , wxAuiPaneInfo (missing docs), wxAuiDockArt, wxAuiManagerEvent
+  * wxAutoBufferedPaintDC
   * wxBitmap
   * ~~wxBitmapButton~~
   * ~~wxBitmapComboBox~~
   * ~~wxBrush~~
+  * wxBufferedDC
+  * wxBuffererdPaintDC
   * ~~wxButton~~
   * ~~wxCheckBox~~
-  * wxCheckListBox
+  * ~~wxCheckListBox~~
   * ~~wxChoice~~
   * wxChoiceBook
   * ~~wxChoiceDialog~~
-  * wxColourDialog
+  * ~~wxCollapsiblePane~~
+  * ~~wxColourDialog~~
+  * ~~wxColourPickerCtrl~~
   * ~~wxComboBox~~
   * wxComboCtrl
   * wxConfig
+  * ~~wxControl~~
   * ~~wxControlWithItems~~
   * wxCursor
+  * wxDatePickerCtrl
   * ~~wxDC~~
   * wxDialog
   * wxDirDialog
   * wxFileDialog
   * wxFileHistory
-  * wxFontDialog
+  * ~~wxFilePickerCtrl~~
+  * wxFileSystem
+  * wxFileSystemHandler
+  * ~~wxFindReplaceDialog~~
+  * ~~wxFontDialog~~
+  * ~~wxFontEnumerator~~
+  * ~~wxFontPickerCtrl~~
   * ~~wxFrame~~
+  * wxGauge
   * wxGLCanvas
   * wxGrid - see wxSheet
   * wxHtmlWindow
@@ -59,18 +73,20 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxScrollBar~~
   * ~~wxScrolledWindow~~
   * ~~wxSearchCtrl~~
-  * wxSheet
+  * ~~wxSlider~~
   * ~~wxSpinButton~~
   * wxSpinCtrl
   * ~~wxSplashScreen~~
   * ~~wxSplitterWindow~~
+  * ~~wxStaticBitmap~~
   * ~~wxStaticBox~~
+  * wxStaticBoxSizer
   * ~~wxStaticLine~~
   * ~~wxStaticText~~
   * ~~wxStatusBar~~
-  * wxSystemSettings
+  * ~~wxSystemSettings~~
   * wxTextCtrl
-  * wxTextEntryDialog
+  * ~~wxTextEntryDialog~~
   * ~~wxTimer~~
   * ~~wxToggleButton~~
   * wxToolBar
@@ -80,7 +96,15 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxTreeCtrl~~
   * wxUri
   * ~~wxVScrolledWindow~~
+  * wxWindow
   * ~~wxWizard~~
 etc...
  
- 
+ ===Third Party components===
+These are non-standard wxWidgets components that happen to be very useful and can add a lot to an application.
+
+  * ~~wxFlatNotebook~~
+  * wxPropGrid
+  * wxScintilla
+  * wxSheet
+  * wxSpinCtrlDbl
