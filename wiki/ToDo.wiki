@@ -90,21 +90,21 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxSearchCtrl~~
   * ~~wxSlider~~
   * ~~wxSpinButton~~
-  * wxSpinCtrl
+  * ~~wxSpinCtrl~~
   * ~~wxSplashScreen~~
   * ~~wxSplitterWindow~~
   * ~~wxStaticBitmap~~
   * ~~wxStaticBox~~
-  * wxStaticBoxSizer
+  * ~~wxStaticBoxSizer~~
   * ~~wxStaticLine~~
   * ~~wxStaticText~~
   * ~~wxStatusBar~~
   * ~~wxSystemSettings~~
-  * wxTextCtrl
+  * ~~wxTextCtrl~~
   * ~~wxTextEntryDialog~~
   * ~~wxTimer~~
   * ~~wxToggleButton~~
-  * wxToolBar
+  * ~~wxToolBar~~
   * wxToolBook
   * wxTopLevelWindow
   * wxTreeBook
