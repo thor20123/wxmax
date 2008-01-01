@@ -30,8 +30,8 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxDatePickerCtrl
   * ~~wxDC~~
   * wxDialog
-  * wxDirDialog
-  * wxFileDialog
+  * ~~wxDirDialog~~
+  * ~~wxFileDialog~~
   * wxFileHistory
   * ~~wxFilePickerCtrl~~
   * wxFileSystem
@@ -45,7 +45,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxGLCanvas
   * wxGrid - see wxSheet
   * wxHtmlWindow
-  * wxHyperlinkCtrl
+  * ~~wxHyperlinkCtrl~~
   * wxIcon
   * wxImage
   * wxImageList
@@ -67,20 +67,22 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxMouseEvent~~
   * ~~wxNotebook~~
   * wxNumberEntryDialog
-  * wxPageSetupDialog
-  * wxPageSetupDialogData
+  * ~~wxPageSetupDialog~~
+  * ~~wxPageSetupDialogData~~
   * wxPalette
   * ~~wxPanel~~
   * wxPasswordEntryDialog
   * wxPen
-  * wxPickerBase
-  * wxPlatformInfo
-  * wxPreviewFrame
-  * wxPrintData
+  * ~~wxPickerBase~~
+  * ~~wxPlatformInfo~~
+  * ~~wxPreviewFrame~~
+  * ~~wxPrintData~~
   * wxPrintDialog
   * wxPrinter
-  * wxPrintout
-  * wxPrintPreview
+  * ~~wxPrintout~~
+  * ~~wxPrintPreview~~
+  * wxProgressDialog
+  * wxPropertySheetDialog
   * ~~wxRadioBox~~
   * ~~wxRadioButton~~
   * wxRichTextCtrl
@@ -99,6 +101,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxStaticLine~~
   * ~~wxStaticText~~
   * ~~wxStatusBar~~
+  * ~~wxStdDialogButtonSizer~~
   * ~~wxSystemSettings~~
   * ~~wxTextCtrl~~
   * ~~wxTextEntryDialog~~
