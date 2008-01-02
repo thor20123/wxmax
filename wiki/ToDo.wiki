@@ -66,12 +66,12 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxMiniFrame~~
   * ~~wxMouseEvent~~
   * ~~wxNotebook~~
-  * wxNumberEntryDialog
+  * ~~wxNumberEntryDialog~~
   * ~~wxPageSetupDialog~~
   * ~~wxPageSetupDialogData~~
   * wxPalette
   * ~~wxPanel~~
-  * wxPasswordEntryDialog
+  * ~~wxPasswordEntryDialog~~
   * wxPen
   * ~~wxPickerBase~~
   * ~~wxPlatformInfo~~
@@ -81,7 +81,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxPrinter
   * ~~wxPrintout~~
   * ~~wxPrintPreview~~
-  * wxProgressDialog
+  * ~~wxProgressDialog~~
   * wxPropertySheetDialog
   * ~~wxRadioBox~~
   * ~~wxRadioButton~~
