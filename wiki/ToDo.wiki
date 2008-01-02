@@ -42,6 +42,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxFontPickerCtrl~~
   * ~~wxFrame~~
   * ~~wxGauge~~
+  * wxGenericDirCtrl
   * wxGLCanvas
   * wxGrid - see wxSheet
   * wxHtmlWindow
