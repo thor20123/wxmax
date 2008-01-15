@@ -27,6 +27,11 @@ The library files should be unzipped into the `wx.mod/lib/` folder. It will crea
 With the module at `BlitzMax/mod/wx.mod` and the headers and libraries in their correct locations, it should be a simple matter of building the modules in your IDE.
 It may take a while the first time, since there is a lot to compile.
 
+===Some Windows Installations===
+On some Windows setups, you may find you need to copy some static libraries from MinGW into your win32/lib folder : libodbc32.a, librpcrt4.a and libwinspool.a
+
+Although for the majority of you, this probably isn't required.
+
 == Building ==
 
 On MacOS, you will need to perform the MacAppStubTweaks to get wxWidgets working properly on that platform.
