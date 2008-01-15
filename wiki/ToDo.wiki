@@ -23,7 +23,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxColourPickerCtrl~~
   * ~~wxComboBox~~
   * wxComboCtrl
-  * wxConfig
+  * ~~wxConfig~~
   * ~~wxControl~~
   * ~~wxControlWithItems~~
   * wxCursor
@@ -42,7 +42,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxFontPickerCtrl~~
   * ~~wxFrame~~
   * ~~wxGauge~~
-  * wxGenericDirCtrl
+  * ~~wxGenericDirCtrl~~
   * wxGLCanvas
   * wxGrid - see wxSheet
   * wxHtmlWindow
@@ -54,7 +54,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxListbook
   * ~~wxListCtrl~~
   * ~~wxListView~~
-  * wxLocale
+  * ~~wxLocale~~
   * wxLog, ~~logging functions~~
   * wxMacPageMarginsDialog
   * wxMDIChildFrame
