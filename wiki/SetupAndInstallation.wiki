@@ -3,6 +3,8 @@
 
 = Installing the module =
 
+Windows users might also be interested in reading SubversionExampleSetupForWindows, which has a step-by-step for using the Subversion command-line client.
+
 == Downloads ==
 
 There are a few things you will need before you can start building your own BlitzMax GUI apps with wxWidgets.
