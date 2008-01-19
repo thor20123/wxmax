@@ -25,6 +25,16 @@ End If
 }}}
 The mask defines what information the item will have populated after the call to `GetItem()`. See the `SetItem()` documentation for a list of valid masks.
 
+===wxTreeCtrl Nodes (wxTreeItemId)===
+*Q*: How do I compare two tree nodes? Using `node1 = node2` doesn't seem to work.
+
+*A*: You can use the Equals() method of wxTreeItemId :
+{{{
+If oneTreeItem.Equals(anotherTreeItem) Then
+	DebugLog "They are the same node of the tree!"
+End If
+}}}
+
 ==Compilation Issues==
 *Q*: When I try to compile an application using wxMax the build fails with a long list of strange errors, like this -
 {{{
