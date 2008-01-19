@@ -26,7 +26,7 @@ End If
 The mask defines what information the item will have populated after the call to `GetItem()`. See the `SetItem()` documentation for a list of valid masks.
 
 ===wxTreeCtrl Nodes (wxTreeItemId)===
-*Q*: How do I compare two tree nodes? Using `node1 = node2` doesn't seem to work.
+*Q*: How do I compare two tree items? Using `item1 = item2` doesn't seem to work.
 
 *A*: You can use the Equals() method of wxTreeItemId :
 {{{
