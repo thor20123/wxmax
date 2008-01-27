@@ -83,7 +83,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxPrintout~~
   * ~~wxPrintPreview~~
   * ~~wxProgressDialog~~
-  * wxPropertySheetDialog
+  * ~~wxPropertySheetDialog~~
   * ~~wxRadioBox~~
   * ~~wxRadioButton~~
   * wxRichTextCtrl
@@ -123,6 +123,8 @@ etc...
 These are non-standard wxWidgets components that happen to be very useful and can add a lot to an application.
 
   * ~~wxFlatNotebook~~
+  * ~~wxMidi~~
+  * wxPdfDocument
   * wxPropGrid
   * wxScintilla
   * wxSheet
