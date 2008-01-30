@@ -122,10 +122,12 @@ etc...
  ===Third Party components===
 These are non-standard wxWidgets components that happen to be very useful and can add a lot to an application.
 
+  * wxBZipStream (input and output)
   * ~~wxFlatNotebook~~
   * ~~wxMidi~~
   * wxPdfDocument
   * wxPropGrid
+  * wxRarInputStream
   * wxScintilla
   * wxSheet
   * wxSpinCtrlDbl
