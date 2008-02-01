@@ -104,6 +104,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxStatusBar~~
   * ~~wxStdDialogButtonSizer~~
   * ~~wxSystemSettings~~
+  * ~~wxTaskBarIcon~~
   * ~~wxTextCtrl~~
   * ~~wxTextEntryDialog~~
   * ~~wxTimer~~
@@ -122,12 +123,13 @@ etc...
  ===Third Party components===
 These are non-standard wxWidgets components that happen to be very useful and can add a lot to an application.
 
-  * wxBZipStream (input and output)
+  * ~~wxBZipStream (input and output)~~
+  * ~~wxCTB~~ (win32, linux and *OS X*!!)
   * ~~wxFlatNotebook~~
   * ~~wxMidi~~
   * wxPdfDocument
   * wxPropGrid
-  * wxRarInputStream
+  * ~~wxRarInputStream~~ (Needs some work on the C++ side)
   * wxScintilla
   * wxSheet
   * wxSpinCtrlDbl
