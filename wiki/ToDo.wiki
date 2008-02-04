@@ -6,7 +6,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxArtProvider
   * wxaui - wxAuiManager , wxAuiNotebook , wxAuiPaneInfo (missing docs), wxAuiDockArt, wxAuiManagerEvent
   * wxAutoBufferedPaintDC
-  * wxBitmap
+  * ~~wxBitmap~~
   * ~~wxBitmapButton~~
   * ~~wxBitmapComboBox~~
   * ~~wxBrush~~
@@ -31,8 +31,9 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxDatePickerCtrl
   * wxDateTime (inc wxTimeSpan and wxDateSpan)
   * ~~wxDC~~
-  * wxDialog
+  * ~~wxDialog~~
   * ~~wxDirDialog~~
+  * wxExtHelpController
   * ~~wxFileDialog~~
   * wxFileHistory
   * ~~wxFilePickerCtrl~~
@@ -47,9 +48,11 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxGenericDirCtrl~~
   * wxGLCanvas
   * wxGrid - see wxSheet
+  * wxHelpController
+  * wxHtmlHelpController
   * wxHtmlWindow
   * ~~wxHyperlinkCtrl~~
-  * wxIcon
+  * ~~wxIcon~~
   * wxImage
   * wxImageList
   * wxInternetFSHandler
@@ -89,6 +92,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxPropertySheetDialog~~
   * ~~wxRadioBox~~
   * ~~wxRadioButton~~
+  * ~~wxRegion~~
   * wxRichTextCtrl
   * ~~wxSashWindow~~
   * ~~wxScrollBar~~
@@ -114,7 +118,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxToggleButton~~
   * ~~wxToolBar~~
   * wxToolBook
-  * wxTopLevelWindow
+  * ~~wxTopLevelWindow~~
   * wxTreeBook
   * ~~wxTreeCtrl~~
   * wxUri
