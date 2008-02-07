@@ -28,7 +28,7 @@ You can do this via the `NewEvent()` method of a wxEvent sub-type. (eg. a wxComm
 
 With this new event object, you must set the Event Object that owns the specific event, by calling the event method `SetEventObject()`. This links your event to a wxWidget event handler. (controls extend from wxEventHandler, making them valid event objects).
 
-Finally you attach the event into the pending events queue, from where it will be send until picked up by the application elsewhere.
+Finally you attach the event into the pending events queue, from where it will be processed until picked up by the application elsewhere.
 
 The following snippet should help you see things a bit more clearly :
 {{{
