@@ -13,7 +13,7 @@ Therefore, you will need to get yourself a unique identifier which you can then 
 
 General convention has events named similiarly to this : wxMY_CUSTOM_EVENT
 
-Which makes is stand out in the code, and may be easier to remember... but of course that's entirely up to you. For the purpose of our guide, we'll use the one mentioned above :
+Which makes it stand out in the code, and may be easier to remember... but of course that's entirely up to you. For the purpose of our guide, we'll use the one mentioned above :
 {{{
 Global wxMY_CUSTOM_EVENT:Int = wxNewEventType()
 }}}
