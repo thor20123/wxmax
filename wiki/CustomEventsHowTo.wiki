@@ -11,7 +11,7 @@ Hopefully this short introduction will set you off in the right direction!
 Every kind of event is unique. Your own custom events are no exception.
 Therefore, you will need to get yourself a unique identifier which you can then refer to later. For this, you call `wxNewEventType()` which returns a new unique id.
 
-General convention has events named similiarly to this : wxMY_CUSTOM_EVENT
+General convention has events named similiarly to this : `wxMY_CUSTOM_EVENT`
 
 Which makes it stand out in the code, and may be easier to remember... but of course that's entirely up to you. For the purpose of our guide, we'll use the one mentioned above :
 {{{
@@ -45,6 +45,14 @@ Type MyFrame Extends wxFrame
 End Type
 }}}
 Notice that we get the WindowId from the frame instance, and attach the event to the frame's event handler.
+
+==Connecting to the Event==
+
+You connect to your new event in exactly the same way as you do with all the other events :
+{{{
+	Connect(SOME_ID, wxMY_CUSTOM_EVENT, OnMyNewEvent)
+}}}
+, or via `ConnectRange()` or `ConnectAny()`, depending of course on the type of event that you are generating.
 
 ==The Custom Event Factory==
 
