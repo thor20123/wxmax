@@ -3,6 +3,7 @@
 Crossed-off widgets imply code-completion, but not necessarily complete documentation.
 
   * wxApp
+  * ~~wxArchiveFSHandler~~
   * wxArtProvider
   * wxaui - wxAuiManager , wxAuiNotebook , wxAuiPaneInfo (missing docs), wxAuiDockArt, wxAuiManagerEvent
   * wxAutoBufferedPaintDC
@@ -49,7 +50,9 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxGLCanvas
   * wxGrid - see wxSheet
   * wxHelpController
-  * wxHtmlHelpController
+  * ~~wxHtmlHelpController~~
+  * ~~wxHtmlHelpWindow~~
+  * ~~wxHtmlModalHelp~~
   * wxHtmlWindow
   * ~~wxHyperlinkCtrl~~
   * ~~wxIcon~~
@@ -125,6 +128,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxVScrolledWindow~~
   * wxWindow
   * ~~wxWizard~~
+  * ~~wxZipFSHandler~~
 etc...
  
  ===Third Party components===
