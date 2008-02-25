@@ -18,7 +18,7 @@ Local button:wxButton = New wxButton.Create(panel, wxID_ANY, "My Button", 50, 50
 *A*: You can try adding the following code-snippet to your app initialization section. It scales fonts down by a small percentage, making similar in size to those on Windows -
 {{{
 ?MacOS
-	' make the default Mac font for controls not so big
+	' make the default Mac font for controls not so big '
 	wxSystemOptions.SetOption(wxWINDOW_DEFAULT_VARIANT, wxWINDOW_VARIANT_SMALL)
 ?
 }}}
