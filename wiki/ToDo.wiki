@@ -3,8 +3,11 @@
 Crossed-off widgets imply code-completion, but not necessarily complete documentation.
 
   * wxApp
+  * wxArchive
   * ~~wxArchiveFSHandler~~
-  * wxArtProvider
+  * wxArchiveInputStream
+  * wxArchiveOutputStream
+  * ~~wxArtProvider~~
   * wxaui - wxAuiManager , wxAuiNotebook , wxAuiPaneInfo (missing docs), wxAuiDockArt, wxAuiManagerEvent
   * wxAutoBufferedPaintDC
   * ~~wxBitmap~~
@@ -49,7 +52,8 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxGenericDirCtrl~~
   * wxGLCanvas
   * wxGrid - see wxSheet
-  * wxHelpController
+  * ~~ wxGridBagSizer~~
+  * ~~wxHelpController~~
   * ~~wxHtmlHelpController~~
   * ~~wxHtmlHelpWindow~~
   * ~~wxHtmlModalHelp~~
@@ -65,9 +69,8 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxLocale~~
   * wxLog, ~~logging functions~~
   * ~~wxMacPageMarginsDialog~~
-  * wxMDIChildFrame
-  * wxMDIClientWindow
-  * wxMDIParentFrame
+  * ~~wxMDIChildFrame~~
+  * ~~wxMDIParentFrame~~
   * wxMediaCtrl
   * ~~wxMemoryDC~~
   * ~~wxMenu~~
@@ -114,6 +117,9 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxStatusBar~~
   * ~~wxStdDialogButtonSizer~~
   * ~~wxSystemSettings~~
+  * wxTarEntry
+  * wxTarInputStream
+  * wxTarOutputStream
   * ~~wxTaskBarIcon~~
   * ~~wxTextCtrl~~
   * ~~wxTextEntryDialog~~
@@ -128,7 +134,10 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxVScrolledWindow~~
   * wxWindow
   * ~~wxWizard~~
+  * wxZipEntry
   * ~~wxZipFSHandler~~
+  * wxZipInputStream
+  * wxZipOutputStream
 etc...
  
  ===Third Party components===
