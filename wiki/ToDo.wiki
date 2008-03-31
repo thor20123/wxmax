@@ -31,7 +31,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxConfig~~
   * ~~wxControl~~
   * ~~wxControlWithItems~~
-  * wxCursor
+  * ~~wxCursor~~
   * wxDatePickerCtrl
   * wxDateTime (inc wxTimeSpan and wxDateSpan)
   * ~~wxDC~~
@@ -61,7 +61,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxHyperlinkCtrl~~
   * ~~wxIcon~~
   * wxImage
-  * wxImageList
+  * ~~wxImageList~~
   * wxInternetFSHandler
   * wxListbook
   * ~~wxListCtrl~~
