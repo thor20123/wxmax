@@ -33,7 +33,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxControlWithItems~~
   * ~~wxCursor~~
   * ~~wxDatePickerCtrl~~
-  * wxDateTime (inc wxTimeSpan and wxDateSpan)
+  * ~~wxDateTime (inc wxTimeSpan and wxDateSpan)~~
   * ~~wxDC~~
   * ~~wxDialog~~
   * ~~wxDirDialog~~
