@@ -130,7 +130,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxTopLevelWindow~~
   * wxTreeBook
   * ~~wxTreeCtrl~~
-  * wxUri
+  * ~~wxUri~~
   * ~~wxVScrolledWindow~~
   * wxWindow
   * ~~wxWizard~~
