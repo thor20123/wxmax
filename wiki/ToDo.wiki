@@ -60,7 +60,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxHtmlWindow
   * ~~wxHyperlinkCtrl~~
   * ~~wxIcon~~
-  * wxImage
+  * ~~wxImage~~
   * ~~wxImageList~~
   * wxInternetFSHandler
   * wxListbook
