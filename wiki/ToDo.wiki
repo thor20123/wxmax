@@ -39,7 +39,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxDirDialog~~
   * wxExtHelpController
   * ~~wxFileDialog~~
-  * wxFileHistory
+  * ~~wxFileHistory~~
   * ~~wxFilePickerCtrl~~
   * wxFileSystem
   * wxFileSystemHandler
