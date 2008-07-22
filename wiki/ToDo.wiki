@@ -17,7 +17,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxBufferedDC
   * wxBuffererdPaintDC
   * ~~wxButton~~
-  * wxCalendarCtrl
+  * ~~wxCalendarCtrl~~
   * ~~wxCheckBox~~
   * ~~wxCheckListBox~~
   * ~~wxChoice~~
