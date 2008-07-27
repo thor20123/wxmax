@@ -21,7 +21,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxCheckBox~~
   * ~~wxCheckListBox~~
   * ~~wxChoice~~
-  * wxChoiceBook
+  * ~~wxChoiceBook~~
   * ~~wxChoiceDialog~~
   * ~~wxCollapsiblePane~~
   * ~~wxColourDialog~~
@@ -63,7 +63,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxImage~~
   * ~~wxImageList~~
   * wxInternetFSHandler
-  * wxListbook
+  * ~~wxListbook~~
   * ~~wxListCtrl~~
   * ~~wxListView~~
   * ~~wxLocale~~
@@ -126,9 +126,9 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxTimer~~
   * ~~wxToggleButton~~
   * ~~wxToolBar~~
-  * wxToolBook
+  * ~~wxToolBook~~
   * ~~wxTopLevelWindow~~
-  * wxTreeBook
+  * ~~wxTreeBook~~
   * ~~wxTreeCtrl~~
   * ~~wxUri~~
   * ~~wxVScrolledWindow~~
