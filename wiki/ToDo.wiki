@@ -9,13 +9,13 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxArchiveOutputStream
   * ~~wxArtProvider~~
   * wxaui - wxAuiManager , wxAuiNotebook , wxAuiPaneInfo (missing docs), wxAuiDockArt, wxAuiManagerEvent
-  * wxAutoBufferedPaintDC
+  * ~~wxAutoBufferedPaintDC~~
   * ~~wxBitmap~~
   * ~~wxBitmapButton~~
   * ~~wxBitmapComboBox~~
   * ~~wxBrush~~
-  * wxBufferedDC
-  * wxBuffererdPaintDC
+  * ~~wxBufferedDC~~
+  * ~~wxBuffererdPaintDC~~
   * ~~wxButton~~
   * ~~wxCalendarCtrl~~
   * ~~wxCheckBox~~
@@ -134,10 +134,10 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxVScrolledWindow~~
   * wxWindow
   * ~~wxWizard~~
-  * wxZipEntry
+  * ~~wxZipEntry~~
   * ~~wxZipFSHandler~~
-  * wxZipInputStream
-  * wxZipOutputStream
+  * ~~wxZipInputStream~~
+  * ~~wxZipOutputStream~~
 etc...
  
  ===Third Party components===
