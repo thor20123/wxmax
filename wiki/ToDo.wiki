@@ -41,13 +41,14 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxFileDialog~~
   * ~~wxFileHistory~~
   * ~~wxFilePickerCtrl~~
-  * wxFileSystem
+  * ~~wxFileSystem~~
   * wxFileSystemHandler
   * ~~wxFindReplaceDialog~~
   * ~~wxFontDialog~~
   * ~~wxFontEnumerator~~
   * ~~wxFontPickerCtrl~~
   * ~~wxFrame~~
+  * ~~wxFSFile~~
   * ~~wxGauge~~
   * ~~wxGenericDirCtrl~~
   * wxGLCanvas
