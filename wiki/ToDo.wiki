@@ -8,7 +8,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * wxArchiveInputStream
   * wxArchiveOutputStream
   * ~~wxArtProvider~~
-  * wxaui - wxAuiManager , wxAuiNotebook , wxAuiPaneInfo (missing docs), wxAuiDockArt, wxAuiManagerEvent
+  * ~~wxaui - wxAuiManager , wxAuiNotebook , wxAuiPaneInfo,~~ wxAuiDockArt, ~~wxAuiManagerEvent~~
   * ~~wxAutoBufferedPaintDC~~
   * ~~wxBitmap~~
   * ~~wxBitmapButton~~
