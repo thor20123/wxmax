@@ -37,12 +37,11 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxDC~~
   * ~~wxDialog~~
   * ~~wxDirDialog~~
-  * wxExtHelpController
   * ~~wxFileDialog~~
   * ~~wxFileHistory~~
   * ~~wxFilePickerCtrl~~
   * ~~wxFileSystem~~
-  * wxFileSystemHandler
+  * ~~wxFileSystemHandler~~
   * ~~wxFindReplaceDialog~~
   * ~~wxFontDialog~~
   * ~~wxFontEnumerator~~
@@ -63,7 +62,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxIcon~~
   * ~~wxImage~~
   * ~~wxImageList~~
-  * wxInternetFSHandler
+  * ~~wxInternetFSHandler~~
   * ~~wxListbook~~
   * ~~wxListCtrl~~
   * ~~wxListView~~
@@ -74,6 +73,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxMDIParentFrame~~
   * wxMediaCtrl
   * ~~wxMemoryDC~~
+  * ~~wxMemoryFSHandler~~
   * ~~wxMenu~~
   * ~~wxMenuBar~~
   * ~~wxMiniFrame~~
