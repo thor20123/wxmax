@@ -67,7 +67,7 @@ Crossed-off widgets imply code-completion, but not necessarily complete document
   * ~~wxListCtrl~~
   * ~~wxListView~~
   * ~~wxLocale~~
-  * wxLog, ~~logging functions~~
+  * ~~wxLog, logging functions~~
   * ~~wxMacPageMarginsDialog~~
   * ~~wxMDIChildFrame~~
   * ~~wxMDIParentFrame~~
