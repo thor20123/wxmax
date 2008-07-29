@@ -147,6 +147,7 @@ These are non-standard wxWidgets components that happen to be very useful and ca
   * ~~wxBZipStream (input and output)~~
   * ~~wxCTB~~ (win32, linux and *OS X*!!)
   * ~~wxFlatNotebook~~
+  * wxJSON
   * ~~wxMidi~~
   * wxPdfDocument
   * wxPropGrid
