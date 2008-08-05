@@ -1,6 +1,7 @@
 #summary Things that still need to be done
 
 As of v1.00 of wxMax, we've removed the list of completed items, in order to make it easier to see what's still outstanding.
+If you can't see it in the list it is probably complete. If it isn't, you can always [http://code.google.com/p/wxmax/issues/list add an issue].
 
 Crossed-off widgets imply code-completion, but not necessarily complete documentation.
 
