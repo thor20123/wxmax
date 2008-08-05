@@ -26,7 +26,7 @@ These are non-standard wxWidgets components that happen to be very useful and ca
 
   * wxPdfDocument (one or two outstanding method/functions)
   * wxPropGrid (mostly working)
-  * ~~wxRarInputStream~~ (Doesn't work as a proper intput stream, so this is actually a bit of a hack to get it working with the latest rar source. Better than nothing for now?)
+  * ~~wxRarInputStream~~ (Doesn't work as a proper input stream, so this is actually a bit of a hack to get it working with the latest rar source. Better than nothing for now?)
   * wxScintilla (one or two outstanding method/functions)
   * wxSheet (core functionality working)
   * wxSpinCtrlDbl
