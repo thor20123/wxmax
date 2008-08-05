@@ -1,157 +1,31 @@
 #summary Things that still need to be done
 
+As of v1.00 of wxMax, we've removed the list of completed items, in order to make it easier to see what's still outstanding.
+
 Crossed-off widgets imply code-completion, but not necessarily complete documentation.
 
-  * wxApp
+  * wxApp (one or two outstanding method/functions)
   * wxArchive
-  * ~~wxArchiveFSHandler~~
   * wxArchiveInputStream
   * wxArchiveOutputStream
-  * ~~wxArtProvider~~
-  * ~~wxaui - wxAuiManager , wxAuiNotebook , wxAuiPaneInfo,~~ wxAuiDockArt, ~~wxAuiManagerEvent~~
-  * ~~wxAutoBufferedPaintDC~~
-  * ~~wxBitmap~~
-  * ~~wxBitmapButton~~
-  * ~~wxBitmapComboBox~~
-  * ~~wxBrush~~
-  * ~~wxBufferedDC~~
-  * ~~wxBuffererdPaintDC~~
-  * ~~wxButton~~
-  * ~~wxCalendarCtrl~~
-  * ~~wxCheckBox~~
-  * ~~wxCheckListBox~~
-  * ~~wxChoice~~
-  * ~~wxChoiceBook~~
-  * ~~wxChoiceDialog~~
-  * ~~wxCollapsiblePane~~
-  * ~~wxColourDialog~~
-  * ~~wxColourPickerCtrl~~
-  * ~~wxComboBox~~
   * wxComboCtrl
-  * ~~wxConfig~~
-  * ~~wxControl~~
-  * ~~wxControlWithItems~~
-  * ~~wxCursor~~
-  * ~~wxDatePickerCtrl~~
-  * ~~wxDateTime (inc wxTimeSpan and wxDateSpan)~~
-  * ~~wxDC~~
-  * ~~wxDialog~~
-  * ~~wxDirDialog~~
-  * ~~wxFileDialog~~
-  * ~~wxFileHistory~~
-  * ~~wxFilePickerCtrl~~
-  * ~~wxFileSystem~~
-  * ~~wxFileSystemHandler~~
-  * ~~wxFindReplaceDialog~~
-  * ~~wxFontDialog~~
-  * ~~wxFontEnumerator~~
-  * ~~wxFontPickerCtrl~~
-  * ~~wxFrame~~
-  * ~~wxFSFile~~
-  * ~~wxGauge~~
-  * ~~wxGenericDirCtrl~~
-  * wxGLCanvas
-  * wxGrid - see wxSheet
-  * ~~ wxGridBagSizer~~
-  * ~~wxHelpController~~
-  * ~~wxHtmlHelpController~~
-  * ~~wxHtmlHelpWindow~~
-  * ~~wxHtmlModalHelp~~
-  * wxHtmlWindow
-  * ~~wxHyperlinkCtrl~~
-  * ~~wxIcon~~
-  * ~~wxImage~~
-  * ~~wxImageList~~
-  * ~~wxInternetFSHandler~~
-  * ~~wxListbook~~
-  * ~~wxListCtrl~~
-  * ~~wxListView~~
-  * ~~wxLocale~~
-  * ~~wxLog, logging functions~~
-  * ~~wxMacPageMarginsDialog~~
-  * ~~wxMDIChildFrame~~
-  * ~~wxMDIParentFrame~~
+  * wxGLCanvas (mostly working)
+  * wxSheet
+  * wxHtmlWindow (core functionality working)
   * wxMediaCtrl
-  * ~~wxMemoryDC~~
-  * ~~wxMemoryFSHandler~~
-  * ~~wxMenu~~
-  * ~~wxMenuBar~~
-  * ~~wxMiniFrame~~
-  * ~~wxMouseEvent~~
-  * ~~wxNotebook~~
-  * ~~wxNumberEntryDialog~~
-  * ~~wxPageSetupDialog~~
-  * ~~wxPageSetupDialogData~~
-  * ~~wxPalette~~
-  * ~~wxPanel~~
-  * ~~wxPasswordEntryDialog~~
-  * ~~wxPen~~
-  * ~~wxPickerBase~~
-  * ~~wxPlatformInfo~~
-  * ~~wxPreviewFrame~~
-  * ~~wxPrintData~~
-  * ~~wxPrintDialog~~
-  * ~~wxPrinter~~
-  * ~~wxPrintout~~
-  * ~~wxPrintPreview~~
-  * ~~wxProcess~~
-  * ~~wxProgressDialog~~
-  * ~~wxPropertySheetDialog~~
-  * ~~wxRadioBox~~
-  * ~~wxRadioButton~~
-  * ~~wxRegion~~
   * wxRichTextCtrl
-  * ~~wxSashWindow~~
-  * ~~wxScrollBar~~
-  * ~~wxScrolledWindow~~
-  * ~~wxSearchCtrl~~
-  * ~~wxSlider~~
-  * ~~wxSpinButton~~
-  * ~~wxSpinCtrl~~
-  * ~~wxSplashScreen~~
-  * ~~wxSplitterWindow~~
-  * ~~wxStaticBitmap~~
-  * ~~wxStaticBox~~
-  * ~~wxStaticBoxSizer~~
-  * ~~wxStaticLine~~
-  * ~~wxStaticText~~
-  * ~~wxStatusBar~~
-  * ~~wxStdDialogButtonSizer~~
-  * ~~wxSystemSettings~~
   * wxTarEntry
   * wxTarInputStream
   * wxTarOutputStream
-  * ~~wxTaskBarIcon~~
-  * ~~wxTextCtrl~~
-  * ~~wxTextEntryDialog~~
-  * ~~wxTimer~~
-  * ~~wxToggleButton~~
-  * ~~wxToolBar~~
-  * ~~wxToolBook~~
-  * ~~wxTopLevelWindow~~
-  * ~~wxTreeBook~~
-  * ~~wxTreeCtrl~~
-  * ~~wxUri~~
-  * ~~wxVScrolledWindow~~
-  * wxWindow
-  * ~~wxWizard~~
-  * ~~wxZipEntry~~
-  * ~~wxZipFSHandler~~
-  * ~~wxZipInputStream~~
-  * ~~wxZipOutputStream~~
-etc...
+  * wxWindow (one or two outstanding method/functions)
+
  
  ===Third Party components===
 These are non-standard wxWidgets components that happen to be very useful and can add a lot to an application.
 
-  * ~~wxBZipStream (input and output)~~
-  * ~~wxCTB~~ (win32, linux and *OS X*!!)
-  * ~~wxFlatNotebook~~
-  * ~~wxJSON~~
-  * ~~wxMidi~~
-  * wxPdfDocument
-  * wxPropGrid
-  * ~~wxRarInputStream~~ (Needs some work on the C++ side)
-  * wxScintilla
-  * wxSheet
+  * wxPdfDocument (one or two outstanding method/functions)
+  * wxPropGrid (mostly working)
+  * ~~wxRarInputStream~~ (Doesn't work as a proper intput stream, so this is actually a bit of a hack to get it working with the latest rar source. Better than nothing for now?)
+  * wxScintilla (one or two outstanding method/functions)
+  * wxSheet (core functionality working)
   * wxSpinCtrlDbl
