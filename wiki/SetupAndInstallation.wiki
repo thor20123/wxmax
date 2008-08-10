@@ -1,47 +1,41 @@
 #summary What to put where, and where to find it.
 #labels Featured,Phase-Deploy
 
-= Installing the module =
+= Installing the bin release =
 
-Windows users might also be interested in reading SubversionExampleSetupForWindows, which has a step-by-step for using the Subversion command-line client.
+Download the appropriate *bin* release .rar and extract it somewhere. You should see a wx.mod folder which contains the entirety of wxMax.
+This needs to be moved into your BlitzMax/mod folder.
 
-== Downloads ==
+That's it. You can now start using wxMax !
 
-There are a few things you will need before you can start building your own BlitzMax GUI apps with wxWidgets.
+_Please note that Mac users will require some additional MacAppStubTweaks to get the full benefit out of wxMax._
+
+
+= Installing the source release =
+
+Download the source release .rar and extract it somewhere. You should see a wx.mod folder which contains all the source of wxMax.
+This needs to be moved into your BlitzMax/mod folder.
+
+There are a few more things you will need before you can start building your own BlitzMax GUI apps with wxMax.
 
   * The wxWidgets headers
-  * A set of wxWidgets library files
+  * A set of wxWidgets static library files
 
-Both of these can be downloaded from the [http://code.google.com/p/wxmax/downloads/list Downloads] section.
+These can be downloaded from the [http://code.google.com/p/wxmax/downloads/list?can=2&q=wxwidgets&colspec=Filename+Summary+Uploaded+Size+DownloadCount Downloads] area.
 
-== Module Source ==
-
-Until we have a stable enough code-base, you will need to use the Subversion repository to retrieve the BlitzMax source for the module. See the [http://code.google.com/p/wxmax/source Source] section for details of how to get it.
-
-You can either have the source located directly in the `BlitzMax/mod` folder, or you will have to copy the folder (`wx.mod`) to that location once you've retrieved it from the repository.
-
-= Setup =
 
 The headers should be unzipped in the `wx.mod/include/` folder. It will create a new folder called `wx`.
 
 The library files should be unzipped into the `wx.mod/lib/` folder. It will create a folder based on the libraries you install (e.g. `linux`, for the Linux libraries).
 
-With the module at `BlitzMax/mod/wx.mod` and the headers and libraries in their correct locations, it should be a simple matter of building the modules in your IDE.
-It may take a while the first time, since there is a lot to compile.
+With the headers and libraries in their correct locations, it should be a simple matter of building the modules in your IDE.
+It may take a while the first time, since there is a *lot* to compile.
 
-===Some Windows Installations===
-On some Windows setups, you may find you need to copy some static libraries from MinGW into your win32/lib folder : libodbc32.a, librpcrt4.a and libwinspool.a
 
-Although for the majority of you, this probably isn't required.
+= Installing from Subversion (SVN) =
 
-== Building ==
+Installation from Subversion is similar to  working with a source release, except that you need to retrieve the module from the subversion repository instead.
 
-On MacOS, you will need to perform the MacAppStubTweaks to get wxWidgets working properly on that platform.
+See the [http://code.google.com/p/wxmax/source Source] section for details of how to get it.
 
-Otherwise, it's simply a matter of building modules as always!!
-
-_Note_ : Since BlitzMax 1.28, wxMax can build straight out of the box - there are no BMK or other compiler tweaks to apply first. (previously, one had to build with a customized BMK)
-
-== Samples ==
-
-Once everything is built, why not try out one of the sample apps that comes with the module, in `wx.mod/samples/`.
+Windows users might also be interested in reading SubversionExampleSetupForWindows, which has a step-by-step for using the Subversion command-line client.
