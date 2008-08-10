@@ -8,7 +8,7 @@ The GUI Mac build of a BlitzMax app runs as a Cocoa App, as well as defining its
 
 = The Workaround =
 
-We've got a special [http://code.google.com/p/maxmods/wiki/AppStubModule AppStubModule]  available on the maxmods site, designed to overcome the above issues.
+We've got a special [http://code.google.com/p/maxmods/wiki/AppStubModule AppStubModule]  available to download from [http://code.google.com/p/maxmods/downloads/list?can=2&q=appstub&colspec=Filename+Summary+Uploaded+Size+DownloadCount here], which is designed to overcome the above issues.
 
 == Usage ==
 
