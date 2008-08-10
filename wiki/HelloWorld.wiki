@@ -6,6 +6,8 @@ SuperStrict
 Framework wx.wxApp
 Import wx.wxFrame
 
+New MyApp.run()
+
 Type MyApp Extends wxApp
 
 	Field frame:wxFrame
@@ -21,6 +23,4 @@ Type MyApp Extends wxApp
 
 End Type
 
-
-New MyApp.run()
 }}}
